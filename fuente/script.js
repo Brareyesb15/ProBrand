@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit", (event) => {
     event.preventDefault(); // Evita que el formulario se envíe
-    const inputText = document.getElementById("input_t").value;
 
     // Validación simple
     if (inputText === "") {
