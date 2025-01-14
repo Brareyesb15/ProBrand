@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (event) => {
     event.preventDefault(); // Evita que el formulario se envíe
     const inputText = document.getElementById("input_text").value;
-    // un comment de prue
+    // un comment de prueb
     if (inputText === "") {
       errorMessage.textContent = "El campo de texto está vacío.";
     } else {
