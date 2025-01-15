@@ -4,7 +4,7 @@ import { getUser } from "../services/userService";
 
 export const userController = () => {
   try {
-    log("User Controller Initializsd");
+    log("User Controller Initializszd");
     const user = getUser();
     if (validateUser(user)) {
       log("User is valid");
