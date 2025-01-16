@@ -11,7 +11,7 @@ export const userController = () => {
     } else {
       log("User is invalid");
     }
-  } catch (error) {
+
     errorHandler(error);
   }
 };
