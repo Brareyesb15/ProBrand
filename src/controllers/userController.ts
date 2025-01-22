@@ -10,7 +10,6 @@ export const userController = () => {
     } else {
       log("User is invalid");
     }
-
     errorHandler(error);
   }
 };
