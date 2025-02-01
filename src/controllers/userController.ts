@@ -3,4 +3,4 @@ import { validateUser } from "../utils/validator";
 import { getUser } from "../services/userService";
 
 export const userController = () => {};
-// solo 1
+// solo 1 2
