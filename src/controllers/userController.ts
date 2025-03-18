@@ -7,7 +7,7 @@ export const userController = () => {
     log("User Controller Initialized");
     const user = getUser();
     if (validateUser(user)) {
-      log("User is val")
+      log("User is va")
     } else {
       log("User is invalid");
     }
