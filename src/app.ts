@@ -5,7 +5,7 @@ import { log, errorHandler } from "./utils/logger";
 export const app = () => {
   try {
     log("App Initialized");
-    userRoutes();
+    // userRoutes();
     productRoutes();
   } catch (error) {
     errorHandler(error);
